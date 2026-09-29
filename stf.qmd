@@ -1,0 +1,138 @@
+---
+title: "Apache Arrow and the Sovereign Tech Fund"
+subtitle: "A retrospective"
+author:
+  - Antoine Pitrou
+  - Raúl Cumplido
+date: 14 10 2026
+date-format: long
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+---
+
+# Introduction
+
+## Outline
+
+- Motivation
+- The application process
+- The funded work
+- Retrospective
+- Funding and ASF governance
+- Takeaways for other projects
+- Q&A
+
+## About us
+
+## What is Apache Arrow?
+::: {.notes}
+Minor note about Apache Arrow focusing on it being a building block for the data ecosystem.
+:::
+
+## Motivation for seeking funding
+::: {.notes}
+Explain the funding gap.
+Do we want to talk about the historical funding patterns (Voltron Data and how things went)?
+Do we want to merge this with about us?
+Historically, funding went to features, not maintenance/security/quality.
+:::
+
+
+## What is the Sovereign Tech Fund?
+::: {.notes}
+What is it and what does it fund.
+Why we thought it was a good fit for the funding gap.
+:::
+
+# The application
+
+## Identifying what needed investment
+::: {.notes}
+Previous work on the project.
+Pain points.
+Security.
+Maintenance.
+Quality.
+:::
+
+## Structuring the proposal
+::: {.notes}
+Initial proposal structure.
+:::
+
+## What qualified (and what didn't)
+::: {.notes}
+I don't recall us having push back on what we proposed but we
+did focus on maintenance, security, and quality. No new features.
+:::
+
+## Timeline: application → funded work
+
+# The work
+
+## Release management
+::: {.notes}
+Both improve release process and deliver releases.
+:::
+
+## CI infrastructure
+::: {.notes}
+Improve CI + CI maintenance
+:::
+
+## Security
+::: {.notes}
+Fuzz testing + Supply Chain Security
+:::
+
+## Build improvements
+::: {.notes}
+Improve C++ and Python build systems.
+Improve modularity of the arrow libraries.
+:::
+
+## Maintenance and Community Management
+
+
+## Milestones and reporting
+::: {.notes}
+Initial milestones planned and how reporting works
+:::
+
+# Retrospective
+
+## What went well
+::: {.notes}
+Process was smooth.
+Reporting is quite straightforward.
+Lots of delivered improvements to the Apache Arrow project maintenance and overall quality.
+:::
+
+## Mistakes and shortcomings
+::: {.notes}
+Maintenance is ongoing and requires continuous attention which is still underfunded.
+Lots of things have changed since 1.5 years ago (AI rise) with both the landscape of funding
+and the priorities within the Apache Arrow project.
+:::
+
+## What's still left
+::: {.notes}
+Ongoing maintenance tasks.
+Future improvements planned.
+:::
+
+# Funding and ASF governance
+
+## Paid work in a volunteer-driven project
+::: {.notes}
+How can we fund ongoing maintenance and quality improvements in a volunteer-driven project?
+:::
+
+# Takeaways for other projects
+::: {.notes}
+???
+:::
+
+## Q&A
