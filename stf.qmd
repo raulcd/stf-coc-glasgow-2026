@@ -115,6 +115,8 @@ Lots of delivered improvements to the Apache Arrow project maintenance and overa
 Maintenance is ongoing and requires continuous attention which is still underfunded.
 Lots of things have changed since 1.5 years ago (AI rise) with both the landscape of funding
 and the priorities within the Apache Arrow project.
+Some work packages were over-specified: "Improve fuzzing" should have been
+"Improve software quality and security" to encompass more varied tasks.
 :::
 
 ## What's still left
