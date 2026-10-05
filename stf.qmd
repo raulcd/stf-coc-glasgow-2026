@@ -31,7 +31,36 @@ format:
 Minor note about Apache Arrow focusing on it being a building block for the data ecosystem.
 :::
 
+## Project history: early days (1)
+
+- Arrow was founded in 2016
+- At project start, two major implementations: Java and C++
+- Arrow C++ the basis for Python, R, Ruby implementations
+- All implementations in a monorepo
+- Arrow C++ quickly became dominant
+
+## Project history: VC-backed development (2)
+
+- From 2018 to 2024, significant financial investment in Arrow C++ (Ursa Labs, then Voltron Data)
+- Many components added to the codebase (filesystems, compute layer, etc.)
+- Many optional dependencies
+- Up to ~600k lines of C++ code
+- Massive amount of CI jobs
+  (typical nightly builds in 2024: 87 test builds, 72 packaging builds,
+  51 release verification builds)
+
+## Project history: other implementations (3)
+
+- Other implementations were founded and took off (Go, Rust), with
+  development and maintenance ensured by other subsets of the community
+- They were progressively moved to separate repositories
+
 ## Motivation for seeking funding
+
+- Voltron Data, a VC-backed company, ceased almost all investment in 2024
+- The ex-monorepo (C++, Python, R, Ruby) faced a maintenance cliff
+- An immediate need to keep the lights on (CI maintenance, release management...)
+
 ::: {.notes}
 Explain the funding gap.
 Do we want to talk about the historical funding patterns (Voltron Data and how things went)?
