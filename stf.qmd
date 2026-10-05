@@ -118,7 +118,15 @@ Quality.
 
 ## Structuring the proposal
 
-TODO
+- 11 work packages
+  * 8 bounded initiatives
+  * 3 "keep the lights on" packages (release management, CI maintenance, community management)
+
+- Each work package has a well-defined scope and budget
+
+- 338 days of work spanning 2 calendar years, with a fixed daily rate
+
+- Indicative schedule provided
 
 ::: {.notes}
 Initial proposal structure.
@@ -126,7 +134,7 @@ Initial proposal structure.
 
 ## What qualified (and what didn't)
 
-TODO
+TODO remove this slide?
 
 ::: {.notes}
 I don't recall us having push back on what we proposed but we
