@@ -139,13 +139,25 @@ did focus on maintenance, security, and quality. No new features.
 
 ## Release management
 
-TODO
+- Improvements to Release Process: 20 days
+  - Work on reproducible builds to automate signing
+  - Reproducible Linux binaries (Debian)
+  - Clarify release documentation and improve automated scripts
+  - Enable immutable releases on GitHub
+- Deliver Arrow Releases during 2 years: 34 days
+  - Deliver Arrow Releases according to the planned quarterly schedule
+    - 22.0.0 (Oct 2025), 23.0.0 (Jan 2026), 24.0.0 (Apr 2026), 25.0.0 (Jul 2026), 26.0.0 (Oct 2026)
+  - Deliver patch releases when necessary
+    - 23.0.1 (Feb 2026), 25.0.1 (Aug 2026)
 
 ::: {.notes}
 Both improve release process and deliver releases.
 :::
 
 ## CI infrastructure
+
+- Improvements to Arrow’s continuous integration: 20 days
+- Operational maintenance of Arrow’s continuous integration (CI) infrastructure for 2 years: 34 days
 
 TODO
 
