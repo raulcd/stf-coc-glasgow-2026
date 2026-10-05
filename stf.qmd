@@ -200,6 +200,10 @@ Improve modularity of the arrow libraries.
 
 ## Milestones and reporting
 
+- We chose time-based reporting
+
+- Reporting and invoicing done on a monthly basis: timesheet (time per WP) + detailed list of issues/PRs
+
 TODO
 
 ::: {.notes}
