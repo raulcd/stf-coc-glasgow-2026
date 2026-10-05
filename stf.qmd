@@ -58,6 +58,8 @@ Minor note about Apache Arrow focusing on it being a building block for the data
 ## Motivation for seeking funding
 
 - Voltron Data, a VC-backed company, ceased almost all investment in 2024
+- Funding had been feature-driven, with less regard for maintenance concerns
+  * Keeping codebase lean and manageable was never a factor
 - The ex-monorepo (C++, Python, R, Ruby) faced a maintenance cliff
 - An immediate need to keep the lights on (CI maintenance, release management...)
 
@@ -68,12 +70,28 @@ Do we want to merge this with about us?
 Historically, funding went to features, not maintenance/security/quality.
 :::
 
-
 ## What is the Sovereign Tech Fund?
+
+- Sovereign Tech Agency is a German agency funded by the German government
+- STF: "invest globally in the open software components that underpin Germany's
+  and Europe's competitiveness and ability to innovate"
+- Dozens of open source projects funded: list at <https://www.sovereign.tech/tech>
+- Typical funding is 100-500 k€ per project
+- The STA has other funding programs (Fellowship, Resilience...)
+
 ::: {.notes}
 What is it and what does it fund.
 Why we thought it was a good fit for the funding gap.
 :::
+
+## STF requirements
+
+- Project must be open source
+- Project should have a significant impact in various social and economic sectors
+- Proposed work should focus on software development and maintenance
+- Proposed work should ideally contribute to project sustainability, reliability,
+  maintenance, security
+- Applicants should be experts on the project
 
 # The application
 
