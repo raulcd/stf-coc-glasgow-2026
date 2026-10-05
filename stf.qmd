@@ -137,6 +137,17 @@ did focus on maintenance, security, and quality. No new features.
 
 # The work
 
+::: {.notes}
+xxx: Maybe we want to cut this part short. Add a table with the work-packages and the time
+and add some bullet points like:
+ - Release schedule held quarterly + patch releases
+ - X amount of issues fixed through fuzz testing
+ - General overview of CI/infrastructure related commits
+ - Overview of build improvements and modularity enhancements
+Otherwise it might come up as a report.
+:::
+
+
 ## Release management
 
 - Improvements to Release Process: 20 days
@@ -252,7 +263,9 @@ Future improvements planned.
 ::: {.notes}
 How can we fund ongoing maintenance and quality improvements in a volunteer-driven project?
 
-XXX Not sure what to say about ASF governance
+XXX Not sure what to say about ASF governance. Should we say that you still need a company or a fiscal sponsor outside ASF?
+XXX When the application was submitted we communicated with the PMC to ensure alignment and content.
+XXX As soon as the grant was received it was shared with the PMC and the community with great overall feedback.
 :::
 
 # Takeaways for other projects
