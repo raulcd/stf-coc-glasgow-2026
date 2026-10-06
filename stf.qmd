@@ -325,7 +325,7 @@ Ongoing maintenance tasks.
 Future improvements planned.
 :::
 
-# Funding and ASF governance
+# Funding, ASF governance and takeaways
 
 ## Paid work in a volunteer-driven project
 
@@ -351,11 +351,11 @@ What worked for us:
 - The topics weren't closed (modernization, improvements, security), the community could steer.
 - We shared with the community and the Arrow Project Management Committee (PMC) we were working on the submission both at submission time and at approval time.
 
-# Takeaways for other projects
+## Takeaways for other projects
 
 - You would still need a fiscal host - ASF doesn't act as one.
 - Engage with the community and the PMC early and often to ensure alignment and transparency.
 - Do not over-specify work packages. Allow flexibility for both community steer and new requirement needs.
 - The reporting and the submission is straightforward, don't be afraid of submitting.
 
-## Q&A
+# Q&A
