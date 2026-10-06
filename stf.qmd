@@ -31,7 +31,7 @@ format:
   - Apache Arrow PMC member, Parquet PMC member and ASF member
   - CPython core developer
   - Technical director at [QuantStack](https://quantstack.net/)
-- Raúl Cumplido: Contributor and maintainer, focusing on CI and infrastructure.
+- Raúl Cumplido
   - Contributor to Apache Arrow since 2022
   - Apache Arrow PMC member and ASF member
   - Scientific Software Engineer at [QuantStack](https://quantstack.net/)
@@ -81,13 +81,6 @@ Two pillars:
   * Other implementations less affected
 - An immediate need to keep the lights on (CI maintenance, release management...)
 
-::: {.notes}
-Explain the funding gap.
-Do we want to talk about the historical funding patterns (Voltron Data and how things went)?
-Do we want to merge this with about us?
-Historically, funding went to features, not maintenance/security/quality.
-:::
-
 ## What is the Sovereign Tech Fund?
 
 - [Sovereign Tech Agency](https://www.sovereign.tech/) is a German agency funded
@@ -97,11 +90,6 @@ Historically, funding went to features, not maintenance/security/quality.
 - Dozens of open source projects funded: list at <https://www.sovereign.tech/tech>
 - Typical funding is 100-500 k€ per project
 - The STA has other funding programs (Fellowship, Resilience...)
-
-::: {.notes}
-What is it and what does it fund.
-Why we thought it was a good fit for the funding gap.
-:::
 
 ## STF requirements
 
@@ -121,7 +109,20 @@ Why we thought it was a good fit for the funding gap.
 - Proposed work spans two years (up to half 2027)
 - Finally approved end of July 2025; work started September 2025
 
-## Identifying what needed investment
+## About STF's proposals structure
+
+Standard structure Web form submission followed by a detailed Notion page.
+
+The 6 question topics we were asked:
+
+- Technology description
+- Relevance & public interest
+- Problems & proposed work
+- Team and why it qualifies
+- Governance & community approval
+- Work Packages
+
+## Identifying what needed investment (1)
 
 Previous work on the project helped us understand the pain points
 
@@ -129,37 +130,15 @@ Previous work on the project helped us understand the pain points
   - 200+ CI jobs distributed over multiple CI providers
   - Keeping the lights on was an immediate problem
   - Release Process steps were manual, overall complex process and time consuming
+
+## Identifying what needed investment (2)
+
 - **Security concerns**:
   - Lack of automation to find potential vulnerabilities
-  - Lack of modern software supply chain practices (SBOMS)
+  - Lack of modern software supply chain practices (SBOMs)
 - **Sustainability issues**:
   - Build systems were obsolete (Legacy CMake and setuptools build systems)
   - Lack of modularity in the codebase
-
-::: {.notes}
-TODO Should split this in two probably.
-:::
-
-## About STF's proposals structure (1)
-
-The proposal structure is standard for STF applications.
-
-Fill in a web form and then on a follow up round fill in a more detailed Notion page.
-
-The 6 questions we were asked:
-
-- Describe the technology this effort will support.
-- Where is this technology being used? Why is it relevant and critical? How does this technology serve the public interest?
-
-## About STF's proposals structure (2)
-
-- What are the problems the proposed work is trying to address? What activities do you propose and how do they address the problems described? How do those activities fit into Sovereign Tech Agency’s mission?
-- Who is going to be performing the work and how are they qualified to do so?
-- How is the technology maintained or governed? Is there a community behind the technology and do they approve of the work?
-- Describe the Milestones or Work Packages
-
-We did not get push back for the things we proposed but we were clearly focused on no new features work.
-Focus on underfunded areas like maintenance, security, and quality.
 
 ## Our proposal structure
 
