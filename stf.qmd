@@ -41,15 +41,23 @@ title-slide-attributes:
 
 ## About us
 
+:::: {.columns}
+
+::: {.column width="50%"}
 - Antoine Pitrou
   - Contributor to Apache Arrow since 2018
   - Apache Arrow PMC member, Parquet PMC member and ASF member
   - CPython core developer
   - Technical director at [QuantStack](https://quantstack.net/)
+:::
+::: {.column width="50%"}
 - Raúl Cumplido
   - Contributor to Apache Arrow since 2022
   - Apache Arrow PMC member and ASF member
   - Scientific Software Engineer at [QuantStack](https://quantstack.net/)
+:::
+
+::::
 
 ## What is Apache Arrow?
 
@@ -174,35 +182,50 @@ Previous work on the project helped us understand the pain points
 ![](images/original-stf-timeline.png)
 
 
-## Release management
+## Release Management
 
-- Improvements to Release Process: 20 days
+:::: {.columns}
+
+::: {.column width="50%"}
+- **Improvements to Release Process**
+  _(scope: 20 days)_
   - Work on reproducible builds to automate signing
   - Reproducible Linux binaries (Debian)
   - Clarify release documentation and improve automated scripts
   - Enable immutable releases on GitHub
-- Deliver Arrow Releases during 2 years: 34 days
-  - Deliver Arrow Releases according to the planned quarterly schedule
+:::
+::: {.column width="50%"}
+- **Deliver Arrow Releases during 2 years**
+  _(scope: 34 days)_
+  - Release according to the planned quarterly schedule
     - 22.0.0 (Oct 2025), 23.0.0 (Jan 2026), 24.0.0 (Apr 2026), 25.0.0 (Jul 2026), 26.0.0 (Oct 2026)
   - Deliver patch releases when necessary
     - 23.0.1 (Feb 2026), 25.0.1 (Aug 2026)
-
-::: {.notes}
-Both improve release process and deliver releases.
 :::
+::::
 
 ## CI infrastructure
 
-- Improvements to Arrow’s continuous integration: 20 days
-- Operational maintenance of Arrow’s continuous integration (CI) infrastructure for 2 years: 34 days
+:::: {.columns}
 
-TODO
-
-::: {.notes}
-Improve CI + CI maintenance
+::: {.column width="50%"}
+- **Improvements to Continuous Integration**
+  _(scope: 20 days)_
+  - Migrate external CI jobs to a common CI provider
+  - Reduction of duplicated CI jobs
+  - Add CI jobs for missing areas (GPU, Large Memory tests)
 :::
+::: {.column width="50%"}
+- **Operational maintenance of Arrow’s CI infrastructure for 2 years**
+  _(scope: 34 days)_
+  - CI failure investigation and resolution
+:::
+::::
 
 ## Security
+
+
+
 
 - Fuzz testing: 30 days of work
   - Improve existing fuzzers
