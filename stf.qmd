@@ -346,6 +346,7 @@ Future improvements planned.
 ## About ASF governance
 
 What worked for us:
+
 - There was a clear need for funding as the status quo had been broken.
 - The topics weren't closed (modernization, improvements, security), the community could steer.
 - We shared with the community and the Arrow Project Management Committee (PMC) we were working on the submission both at submission time and at approval time.
