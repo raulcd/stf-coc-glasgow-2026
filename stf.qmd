@@ -311,14 +311,10 @@ Reporting is quite straightforward.
 
 - Over-specified work package: "Improve fuzzing" should have been a more
   general package of improving software security.
-
-TODO
-
-::: {.notes}
-Maintenance is ongoing and requires continuous attention which is still underfunded.
-Lots of things have changed since 1.5 years ago (AI rise) with both the landscape of funding
-and the priorities within the Apache Arrow project.
-:::
+- Continuous Operations (keep the lights on for CI and releases) are still underfunded.
+- Lots of things have changed since the initial planning, including the rise of AI
+  - Flow of security reports.
+  - Community management and maintenance with the rise of AI agents.
 
 ## What's still left
 
@@ -347,18 +343,18 @@ Future improvements planned.
 
 - STF fosters a more honest and healthier situation ("S pays me for maintenance")
 
-::: {.notes}
-How can we fund ongoing maintenance and quality improvements in a volunteer-driven project?
+## About ASF governance
 
-XXX Not sure what to say about ASF governance
-:::
+What worked for us:
+- There was a clear need for funding as the status quo had been broken.
+- The topics weren't closed (modernization, improvements, security), the community could steer.
+- We shared with the community and the Arrow Project Management Committee (PMC) we were working on the submission both at submission time and at approval time.
 
 # Takeaways for other projects
 
-TODO
-
-::: {.notes}
-???
-:::
+- You would still need a fiscal host - ASF doesn't act as one.
+- Engage with the community and the PMC early and often to ensure alignment and transparency.
+- Do not over-specify work packages. Allow flexibility for both community steer and new requirement needs.
+- The reporting and the submission is straightforward, don't be afraid of submitting.
 
 ## Q&A
