@@ -5,14 +5,14 @@
 /* The template's compiled CSS only embeds Montserrat; load the body font from its sources */
 @font-face {
   font-family: "Open Sans";
-  src: url("coc-template/css/theme/fonts/open-sans/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+  src: url("../coc-template/css/theme/fonts/open-sans/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: 300 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("coc-template/css/theme/fonts/open-sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  src: url("../coc-template/css/theme/fonts/open-sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: 300 800;
   font-style: italic;
 }

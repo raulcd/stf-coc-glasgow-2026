@@ -35,8 +35,7 @@ title-slide-attributes:
 - The application process
 - The funded work
 - Retrospective
-- Funding and ASF governance
-- Takeaways for other projects
+- Funding, ASF governance and Takeaways
 - Q&A (10-15 min)
 
 ## About us
