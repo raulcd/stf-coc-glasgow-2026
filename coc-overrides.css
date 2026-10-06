@@ -1,0 +1,61 @@
+/* Adjustments to the Community Over Code Glasgow theme
+   (https://codeberg.org/raboof/community-over-code-glasgow-template)
+   so it plays well with Quarto's reveal.js output. */
+
+/* The template's compiled CSS only embeds Montserrat; load the body font from its sources */
+@font-face {
+  font-family: "Open Sans";
+  src: url("coc-template/css/theme/fonts/open-sans/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 300 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("coc-template/css/theme/fonts/open-sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 300 800;
+  font-style: italic;
+}
+
+/* Smaller sizes: the fixed footer bar eats ~10% of the height */
+:root {
+  --r-main-font-size: 32px;
+  --r-heading1-size: 2em;
+  --r-heading2-size: 1.4em;
+}
+
+/* Quarto's title slide */
+#title-slide .title {
+  font-size: 1.8em;
+}
+
+#title-slide .title,
+#title-slide .subtitle,
+#title-slide .quarto-title-author-name,
+#title-slide .date {
+  color: white;
+  text-shadow: 0 0 0.4em #271122, 0 0 0.8em #271122;
+}
+
+/* Keep the footer above overflowing slide content, and reveal.js chrome above the footer */
+#footer {
+  z-index: 10;
+}
+
+.reveal .controls,
+.reveal .slide-number,
+.reveal .progress,
+.reveal .slide-menu-button {
+  z-index: 11;
+}
+
+.reveal .slide-number {
+  background: transparent;
+  color: white;
+  bottom: 1.5em !important;
+}
+
+/* Quarto draws the menu icon as an SVG filled with the link colour */
+.reveal .slide-menu-button .fa-bars::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>') !important;
+}

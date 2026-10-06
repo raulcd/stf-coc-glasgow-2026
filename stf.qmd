@@ -10,6 +10,21 @@ format:
   revealjs:
     slide-number: true
     incremental: false
+    css:
+      - coc-template/dist/theme/cocglasgow.css
+      - coc-overrides.css
+    include-after-body:
+      text: |
+        <div id="footer">
+          <div class="left">October 11-14, 2026</div>
+          <img src="coc-template/img/footer.png"/>
+          <div class="right">Glasgow, Scotland</div>
+        </div>
+title-slide-attributes:
+  data-background-color: "#271122"
+  data-background-image: coc-template/img/front.png
+  data-background-size: "100% auto"
+  data-background-position: "center bottom 5em"
 ---
 
 # Introduction
