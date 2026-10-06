@@ -1,0 +1,4 @@
+[submodule "coc-template"]
+	path = coc-template
+	url = https://codeberg.org/raboof/community-over-code-glasgow-template.git
+	branch = pages
