@@ -12,7 +12,7 @@ format:
     incremental: false
     css:
       - coc-template/dist/theme/cocglasgow.css
-      - coc-overrides.css
+      - css/coc-overrides.css
     include-after-body:
       text: |
         <div id="footer">
