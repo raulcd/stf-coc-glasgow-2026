@@ -169,7 +169,9 @@ Previous work on the project helped us understand the pain points
 
 # The work
 
-## Timeline
+## Proposed timeline
+
+![](images/original-stf-timeline.png)
 
 
 ## Release management
@@ -239,6 +241,10 @@ Real milestones.
 :::
 
 # Retrospective
+
+## Real timeline
+
+![](images/current-stf-timeline.png)
 
 ## What went well
 
