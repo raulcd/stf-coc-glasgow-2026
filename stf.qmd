@@ -22,14 +22,31 @@ format:
 - Retrospective
 - Funding and ASF governance
 - Takeaways for other projects
-- Q&A
+- Q&A (10-15 min)
 
 ## About us
 
+- Antoine Pitrou
+  - Contributor to Apache Arrow since 2018
+  - Apache Arrow PMC member, Parquet PMC member and ASF member
+  - CPython core developer
+  - Technical director at [QuantStack](https://quantstack.net/)
+- Raúl Cumplido: Contributor and maintainer, focusing on CI and infrastructure.
+  - Contributor to Apache Arrow since 2022
+  - Apache Arrow PMC member and ASF member
+  - Scientific Software Engineer at [QuantStack](https://quantstack.net/)
+
 ## What is Apache Arrow?
-::: {.notes}
-Minor note about Apache Arrow focusing on it being a building block for the data ecosystem.
-:::
+
+It provides fundamental open building blocks for data science, analytics and scientific computing.
+
+ - Universal columnar in-memory format
+ - Multi-language toolbox for in-memory analytics and fast data interchange
+
+Two pillars:
+
+ - A set of community-approved specifications for platform-agnostic data sharing
+ - A set of reference implementations of these specifications
 
 ## Project history: early days (1)
 
@@ -106,17 +123,45 @@ Why we thought it was a good fit for the funding gap.
 
 ## Identifying what needed investment
 
-TODO
+Previous work on the project helped us understand the pain points
+
+- **Maintenance challenges**:
+  - 200+ CI jobs distributed over multiple CI providers
+  - Keeping the lights on was an immediate problem
+  - Release Process steps were manual, overall complex process and time consuming
+- **Security concerns**:
+  - Lack of automation to find potential vulnerabilities
+  - Lack of modern software supply chain practices (SBOMS)
+- **Sustainability issues**:
+  - Build systems were obsolete (Legacy CMake and setuptools build systems)
+  - Lack of modularity in the codebase
 
 ::: {.notes}
-Previous work on the project.
-Pain points.
-Security.
-Maintenance.
-Quality.
+TODO Should split this in two probably.
 :::
 
-## Structuring the proposal
+## About STF's proposals structure (1)
+
+The proposal structure is standard for STF applications.
+
+Fill in a web form and then on a follow up round fill in a more detailed Notion page.
+
+The 6 questions we were asked:
+
+- Describe the technology this effort will support.
+- Where is this technology being used? Why is it relevant and critical? How does this technology serve the public interest?
+
+## About STF's proposals structure (2)
+
+- What are the problems the proposed work is trying to address? What activities do you propose and how do they address the problems described? How do those activities fit into Sovereign Tech Agency’s mission?
+- Who is going to be performing the work and how are they qualified to do so?
+- How is the technology maintained or governed? Is there a community behind the technology and do they approve of the work?
+- Describe the Milestones or Work Packages
+
+We did not get push back for the things we proposed but we were clearly focused on no new features work.
+Focus on underfunded areas like maintenance, security, and quality.
+
+## Our proposal structure
 
 - 11 work packages
   * 8 bounded initiatives
@@ -128,22 +173,10 @@ Quality.
 
 - Indicative schedule provided
 
-::: {.notes}
-Initial proposal structure.
-:::
-
-## What qualified (and what didn't)
-
-TODO remove this slide?
-
-::: {.notes}
-I don't recall us having push back on what we proposed but we
-did focus on maintenance, security, and quality. No new features.
-:::
-
-## Timeline: application → funded work
-
 # The work
+
+## Timeline
+
 
 ## Release management
 
@@ -208,6 +241,7 @@ TODO
 
 ::: {.notes}
 Initial milestones planned and how reporting works
+Real milestones.
 :::
 
 # Retrospective
