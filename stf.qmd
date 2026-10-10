@@ -278,11 +278,6 @@ Previous work on the project helped us understand the pain points
 :::
 ::::
 
-
-## Maintenance and Community Management
-
-TODO
-
 ## Reporting
 
 Reporting is quite straightforward.
@@ -314,15 +309,14 @@ Reporting is quite straightforward.
 - Lots of things have changed since the initial planning, including the rise of AI
   - Flow of security reports.
   - Community management and maintenance with the rise of AI agents.
+- Even when accounted for general maintenance requires more funding.
 
 ## What's still left
 
-TODO
-
-::: {.notes}
-Ongoing maintenance tasks.
-Future improvements planned.
-:::
+- Several work packages are still on-going.
+  - Modularity of Arrow C++ and Python.
+- Supply Chain Security WP not started.
+- On-going CI maintenance and Release work.
 
 # Funding, ASF governance and takeaways
 
@@ -356,5 +350,6 @@ What worked for us:
 - Engage with the community and the PMC early and often to ensure alignment and transparency.
 - Do not over-specify work packages. Allow flexibility for both community steer and new requirement needs.
 - The reporting and the submission is straightforward, don't be afraid of submitting.
+- Maintenance and ongoing work can take more funds even when accounted for initially.
 
 # Q&A
